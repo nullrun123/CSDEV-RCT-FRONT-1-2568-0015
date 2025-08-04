@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo {
+  display: flex;
+  font-size: 24px;
+  gap: 8px;
+}
+
+.logoimg {
+  width: 25px;
+  height: 40px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .logoimg {
+    width: 20px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,149 @@
+
+
+.details{
+    /* background: red; */
+    max-width: 50em;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.headDetail{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.btnview{
+    background: #fff; 
+    padding: 5px 15px;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.myul{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 1rem;
+}
+.li{
+  transform: scale(0.95);
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  font-size: 20px;
+  overflow: hidden;
+
+}
+/* .imageBlog{
+  width: 45rem;
+} */
+.blogimg {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: repeat;
+}
+.detailtext{
+  color: black;
+  text-align: left;
+
+  padding:1.5rem 2rem;
+  max-width: 100%;
+  h2{
+    font-size: clamp(1.125rem, 0.939rem + 0.3876vw, 1.375rem);
+  }
+}
+.detail{
+    font-size: 18px;
+    margin: 20px 0;
+    margin-bottom:30px;
+}
+
+.btnread{
+    background: orange;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.Blogs{
+  font-size: 38px;
+
+  margin-bottom: 0.1em;
+  color: #9C55FF;
+}
+
+
+@media (max-width: 768px) {
+
+   .detailtext  h2 , .li {
+   font-size: clamp(0.9375rem, 0.9375rem + 0.651vw, 1.25rem);
+  }
+  .Blogs{
+    font-size: clamp(1.0625rem, 0.8622rem + 1.0684vw, 1.375rem);
+  }
+  .detail { 
+    /* font-size: clamp(0.75rem, 0.75rem + 0.651vw, 1.0625rem); */
+    font-size: clamp(0.8125rem, 0.5321rem + 1.4957vw, 1.25rem);
+    margin-bottom:0;
+  }
+
+
+  .li {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    min-height: 350px;
+    
+  }
+  .imageBlog{
+
+  width: 100%;
+}
+ .blogimg {
+  width: 100%;
+  height: 100px;
+}
+
+  .detailtext {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .detail {
+    width: 100%; 
+
+  }
+
+  .btnread {
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .detailtext  h2 , .li , .Blogs{
+   font-size: clamp(0.5rem, 0.5rem + 2vw, 0.875rem);
+  }
+  
+  .detail { 
+    font-size: clamp(0.5625rem, 0.5625rem + 1.3333vw, 0.8125rem);
+  }
+     .btnread {
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+}

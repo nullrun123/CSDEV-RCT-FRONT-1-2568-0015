@@ -1,0 +1,132 @@
+.bgblog{
+    background-image: url("/bg.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;   
+    height: 32em;
+    width: 100%;
+   
+}
+.centerblog{
+    background: #fff;
+    color:black;
+    border-radius: 20px;
+    width: 750px;
+    position: relative;
+    overflow: hidden;
+}
+.title{
+    display: block;
+    text-align: left;
+    margin: 30px;
+    line-height: 15px;
+    
+    h1{
+        font-size: 50px;
+        margin:40px 0;
+    }
+    h2{
+        font-size: 30px;
+    }
+   p{
+    font-size: 19px;
+    width: 27em;
+    line-height: 25px;
+    margin: 25px 0;
+   }
+}
+
+.btnimg{
+    display: flex;
+    margin: 30px;
+    height: 180px;
+    position: relative;
+    img{
+        position: absolute;
+        top:-60px;
+        right:60px;
+        width: 210px;
+        height:23em;
+    }
+}
+.btnbox{
+    display: flex;
+    align-items: flex-end;
+} 
+.btnjoin{
+   
+    padding: 12px 40px;
+    border-radius: 20px;
+    background: #8B41F2;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+.btnjoin:hover{
+     background: #5e2ba5;
+}
+
+
+@media (max-width: 768px) {
+  .centerblog {
+    transform: scale(0.9);
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+
+  .title h2 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .title p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 22px;
+  }
+
+  .btnimg {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    height: auto;
+    position: relative;
+  }
+
+  .btnbox {
+    margin-bottom: 20px;
+  }
+
+  .btnjoin {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .btnimg img {
+    position:  static;
+    width: 150px;
+    height: auto;
+  }
+}
+@media (max-width:450px) {
+     .btnimg img {
+    position:  static;
+    width: 130px;
+    margin-top: -20px;
+  }
+}

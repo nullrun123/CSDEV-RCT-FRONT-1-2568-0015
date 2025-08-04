@@ -1,0 +1,469 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+
+
+.page_logo__ikIZE:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.page_logo__ikIZE.page_react__XX8tP:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.page_star__Q1gRa{
+  width: 2000px;
+  height: 100vh;
+  background: red;
+  position: absolute;
+  .page_star1__zvKdc{
+    position: absolute;
+    top:200px;
+    left: -50px;
+  }
+}
+@keyframes page_logo-spin__lp7l5 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .page_logo__ikIZE {
+    animation: page_logo-spin__lp7l5 infinite 20s linear;
+  }
+}
+.page_sectioncontent__xG2pf{
+   position: relative;
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+.page_section__zQZ2o{
+   position: relative;
+    margin: 0 auto;
+    max-width: 968px;
+
+}
+
+.page_aa__kZTL0{
+  background: #fff;
+  width: 200px;
+  height: 100px;
+}
+
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/Header.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Header_navbar__9czzY {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.Header_logo__V0SFW {
+  display: flex;
+  font-size: 24px;
+  gap: 8px;
+}
+
+.Header_logoimg__RmXfX {
+  width: 25px;
+  height: 40px;
+}
+
+@media (max-width: 600px) {
+  .Header_navbar__9czzY {
+    padding: 5px 10px;
+  }
+
+  .Header_logo__V0SFW {
+    font-size: 18px;
+  }
+
+  .Header_logoimg__RmXfX {
+    width: 20px;
+    height: 30px;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/MyBlogs.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.MyBlogs_details__am57l{
+    /* background: red; */
+    max-width: 50em;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.MyBlogs_headDetail__BvrG2{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.MyBlogs_btnview__IQgqQ{
+    background: #fff; 
+    padding: 5px 15px;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.MyBlogs_myul__PPMTQ{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 1rem;
+}
+.MyBlogs_li__PnQPK{
+  transform: scale(0.95);
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  font-size: 20px;
+  overflow: hidden;
+
+}
+/* .imageBlog{
+  width: 45rem;
+} */
+.MyBlogs_blogimg__oVzRX {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: repeat;
+}
+.MyBlogs_detailtext__zsYBd{
+  color: black;
+  text-align: left;
+
+  padding:1.5rem 2rem;
+  max-width: 100%;
+  h2{
+    font-size: clamp(1.125rem, 0.939rem + 0.3876vw, 1.375rem);
+  }
+}
+.MyBlogs_detail__Kuau_{
+    font-size: 18px;
+    margin: 20px 0;
+    margin-bottom:30px;
+}
+
+.MyBlogs_btnread__Y52je{
+    background: orange;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.MyBlogs_Blogs__bi2Je{
+  font-size: 38px;
+
+  margin-bottom: 0.1em;
+  color: #9C55FF;
+}
+
+
+@media (max-width: 768px) {
+
+   .MyBlogs_detailtext__zsYBd  h2 , .MyBlogs_li__PnQPK {
+   font-size: clamp(0.9375rem, 0.9375rem + 0.651vw, 1.25rem);
+  }
+  .MyBlogs_Blogs__bi2Je{
+    font-size: clamp(1.0625rem, 0.8622rem + 1.0684vw, 1.375rem);
+  }
+  .MyBlogs_detail__Kuau_ { 
+    /* font-size: clamp(0.75rem, 0.75rem + 0.651vw, 1.0625rem); */
+    font-size: clamp(0.8125rem, 0.5321rem + 1.4957vw, 1.25rem);
+    margin-bottom:0;
+  }
+
+
+  .MyBlogs_li__PnQPK {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    min-height: 350px;
+    
+  }
+  .MyBlogs_imageBlog__J2Ln8{
+
+  width: 100%;
+}
+ .MyBlogs_blogimg__oVzRX {
+  width: 100%;
+  height: 100px;
+}
+
+  .MyBlogs_detailtext__zsYBd {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .MyBlogs_detail__Kuau_ {
+    width: 100%; 
+
+  }
+
+  .MyBlogs_btnread__Y52je {
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .MyBlogs_detailtext__zsYBd  h2 , .MyBlogs_li__PnQPK , .MyBlogs_Blogs__bi2Je{
+   font-size: clamp(0.5rem, 0.5rem + 2vw, 0.875rem);
+  }
+  
+  .MyBlogs_detail__Kuau_ { 
+    font-size: clamp(0.5625rem, 0.5625rem + 1.3333vw, 0.8125rem);
+  }
+     .MyBlogs_btnread__Y52je {
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\fonts\\Myfonts.js","import":"","arguments":[{"src":"./Micro5Regular.ttf","weight":"600","display":"swap"}],"variableName":"myFont"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: 'myFont';
+src: url(/_next/static/media/d6c82a07fef8101d-s.p.ttf) format('truetype');
+font-display: swap;
+font-weight: 600;
+}@font-face {font-family: 'myFont Fallback';src: local("Arial");ascent-override: 98.52%;descent-override: 38.08%;line-gap-override: 0.00%;size-adjust: 73.21%
+}.__className_d26511 {font-family: 'myFont', 'myFont Fallback';font-weight: 600
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/HeaderBlog.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.HeaderBlog_bgblog__ZPafq{
+    background-image: url("/bg.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;   
+    height: 32em;
+    width: 100%;
+   
+}
+.HeaderBlog_centerblog__brRv3{
+    background: #fff;
+    color:black;
+    border-radius: 20px;
+    width: 750px;
+    position: relative;
+    overflow: hidden;
+}
+.HeaderBlog_title__EJqq3{
+    display: block;
+    text-align: left;
+    margin: 30px;
+    line-height: 15px;
+    
+    h1{
+        font-size: 50px;
+        margin:40px 0;
+    }
+    h2{
+        font-size: 30px;
+    }
+   p{
+    font-size: 19px;
+    width: 27em;
+    line-height: 25px;
+    margin: 25px 0;
+   }
+}
+
+.HeaderBlog_btnimg__TDEve{
+    display: flex;
+    margin: 30px;
+    height: 180px;
+    position: relative;
+    img{
+        position: absolute;
+        top:-60px;
+        right:60px;
+        width: 210px;
+        height:23em;
+    }
+}
+.HeaderBlog_btnbox__2I1NF{
+    display: flex;
+    align-items: flex-end;
+} 
+.HeaderBlog_btnjoin__9GutY{
+   
+    padding: 12px 40px;
+    border-radius: 20px;
+    background: #8B41F2;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+.HeaderBlog_btnjoin__9GutY:hover{
+     background: #5e2ba5;
+}
+
+
+@media (max-width: 768px) {
+  .HeaderBlog_centerblog__brRv3 {
+    transform: scale(0.9);
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .HeaderBlog_title__EJqq3 {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .HeaderBlog_title__EJqq3 h1 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+
+  .HeaderBlog_title__EJqq3 h2 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .HeaderBlog_title__EJqq3 p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 22px;
+  }
+
+  .HeaderBlog_btnimg__TDEve {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    height: auto;
+    position: relative;
+  }
+
+  .HeaderBlog_btnbox__2I1NF {
+    margin-bottom: 20px;
+  }
+
+  .HeaderBlog_btnjoin__9GutY {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .HeaderBlog_btnimg__TDEve img {
+    position:  static;
+    width: 150px;
+    height: auto;
+  }
+}
+@media (max-width:450px) {
+     .HeaderBlog_btnimg__TDEve img {
+    position:  static;
+    width: 130px;
+    margin-top: -20px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/DetailBlog.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.DetailBlog_Modal__gfLgG{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%) ;
+    background: #fff;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.DetailBlog_Overlay__tLbsm{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1000;
+
+}
+.DetailBlog_btnclose__AERMu{
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top:20px;
+    right:30px;
+}
+.DetailBlog_btnclose__AERMu:hover{
+    transform: scale(1.4);
+}
+.DetailBlog_detailmodal__GK_xC{
+    /* background: blue; */
+    color:black;
+    width: 800px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: 400;
+    
+}
+.DetailBlog_titlemodal__m0aL3{
+     margin-bottom: 10px;
+     width: 100%;
+     max-width: 600px
+}
+.DetailBlog_datetitle__RwXlA{
+    color:gray;
+}
+.DetailBlog_categorybox__XlHVt{
+    margin-top: 40px;
+    display: flex;
+}
+.DetailBlog_category__ZjnZX{
+    margin-right: 12px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    background: #fff;
+}
+.DetailBlog_description__Idpx7{
+    border-top: 1px solid rgb(228, 228, 228);
+    padding:20px 0px;
+    margin-top: 20px;
+}
+
+
+.DetailBlog_thumbnail__cm3gh{
+    position: absolute;
+    top:50px;
+    right:120px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
