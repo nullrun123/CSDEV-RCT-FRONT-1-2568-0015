@@ -156,7 +156,7 @@
 }
 .MyBlogs_detail__Kuau_{
     font-size: 15px;
-    margin: 20px 0;
+    margin: 10px 0;
     margin-bottom:30px;
 }
 
@@ -165,7 +165,7 @@
     text-align: center;
     border-radius: 30px;
     font-weight: bold;
-    padding: 15px 40px;
+    padding: 13px 35px;
     cursor: pointer;
 }
 .MyBlogs_btnread__Y52je:hover{
@@ -175,7 +175,7 @@
 .MyBlogs_Blogs__bi2Je{
   font-size: 38px;
 
-  margin-bottom: 0.1em;
+  margin-bottom: 0.2em;
   color: #9C55FF;
 }
 
