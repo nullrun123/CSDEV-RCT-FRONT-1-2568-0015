@@ -1,5 +1,5 @@
 import styles from '@/app/styles/Header.module.css';
-import pine from '@/public/pineapple.svg';
+import pine from '@/public/pineapple_full.svg';
 import Image from 'next/image';
 export default function Header(){
     return(

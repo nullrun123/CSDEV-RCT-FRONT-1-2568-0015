@@ -1,4 +1,4 @@
-// File: A:\code\RoadTOFullstack\Nextjs-tutorial\copy-app\app\api\route.jsx
+// File: C:\Users\nullr\OneDrive\Documents\CSDEV-RECRUITMENT-1-2568-Frontend-nextjs-\app\api\route.jsx
 import * as entry from '../../../../app/api/route.js'
 import type { NextRequest } from 'next/server.js'
 

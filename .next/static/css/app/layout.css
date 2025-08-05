@@ -176,18 +176,19 @@ a {
 .Header_navbar__9czzY {
   display: flex;
   align-items: center;
-  padding: 0px 20px;
+  padding: 5px 20px;
 }
 
 .Header_logo__V0SFW {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
   gap: 8px;
-}
+  align-items: center;
+ }
 
 .Header_logoimg__RmXfX {
   width: 25px;
-  height: 40px;
+  height: 30px;
 }
 
 @media (max-width: 600px) {
