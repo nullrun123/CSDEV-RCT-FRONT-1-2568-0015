@@ -15,9 +15,12 @@ const Home = () => {
     const [data1, setData1] = useState([]);
 
   useEffect(() => {
+   
+
+
     async function getData() {
       try{
-      const res = await fetch('/api');
+      const res = await fetch('./api');
       const data = await res.json();
       setData1(data);
       }catch(err){
