@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <>
         <header>
-      <nav className={styles.navbar}>
+      <nav className={`section ${styles.navbar}`}>
         <h1 className={styles.logo}>
           <Image src={pine} alt="Pineapple Logo" className={styles.logoimg}/>
           Pineapple 

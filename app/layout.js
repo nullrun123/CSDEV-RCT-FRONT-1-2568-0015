@@ -1,8 +1,10 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import FooterPage from "../component/footer";
 import localFont from 'next/font/local'
 import Header from "./Header/page";
+import Aniloading from "@/component/aniloading";
 import Star from "@/component/star";
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,14 +24,17 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+    
   return (
     <html lang="en">
       
-      <body className={`section ${geistSans.variable} ${geistMono.variable}`}>
+      <body className={` ${geistSans.variable} ${geistMono.variable}`}>
         
-        <Header/>
+        <Aniloading />
+        <Header />
         {children}
         <FooterPage/>
+
       </body>
     </html>
   );

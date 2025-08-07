@@ -6,7 +6,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.modalopen {
+  overflow-y: hidden;
+}
 .star{
   width: 2000px;
   height: 100vh;
@@ -18,6 +20,7 @@
     left: -50px;
   }
 }
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,12 +40,12 @@
     margin: 0 auto;
     max-width: var(--max-width);
 }
-.section{
+/* .section{
    position: relative;
     margin: 0 auto;
     max-width: 968px;
 
-}
+} */
 
 .aa{
   background: #fff;

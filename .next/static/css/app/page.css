@@ -9,7 +9,9 @@
 .page_logo__ikIZE.page_react__XX8tP:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.page_modalopen__OCdix {
+  overflow-y: hidden;
+}
 .page_star__Q1gRa{
   width: 2000px;
   height: 100vh;
@@ -21,6 +23,7 @@
     left: -50px;
   }
 }
+
 @keyframes page_logo-spin__lp7l5 {
   from {
     transform: rotate(0deg);
@@ -40,12 +43,12 @@
     margin: 0 auto;
     max-width: var(--max-width);
 }
-.page_section__zQZ2o{
+/* .section{
    position: relative;
     margin: 0 auto;
     max-width: 968px;
 
-}
+} */
 
 .page_aa__kZTL0{
   background: #fff;

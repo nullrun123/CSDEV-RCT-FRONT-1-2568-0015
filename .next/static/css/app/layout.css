@@ -1,3 +1,28 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/loading.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.loading_column__9tUWo{
+  position: absolute;
+  right: 0;
+  top:0;
+  left:0;
+  bottom: 0;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100vh;
+}
+.loading_list__42l7a{
+  display: flex;
+  background: green;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+width: 100%;
+  height: 100%;
+}
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Geist","arguments":[{"variable":"--font-geist-sans","subsets":["latin"]}],"variableName":"geistSans"} ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -152,6 +177,11 @@ a {
         letter-spacing: 1.5px;
     }
 }
+.footer_section__TuGVS{
+   position: relative;
+    margin: 0 auto;
+    max-width: 968px;
+}
 .footer_copyright__heWM4{
     font-weight: bold;
     font-size: 12px;
@@ -217,7 +247,9 @@ a {
 .page_logo__ikIZE.page_react__XX8tP:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.page_modalopen__OCdix {
+  overflow-y: hidden;
+}
 .page_star__Q1gRa{
   width: 2000px;
   height: 100vh;
@@ -229,6 +261,7 @@ a {
     left: -50px;
   }
 }
+
 @keyframes page_logo-spin__lp7l5 {
   from {
     transform: rotate(0deg);
@@ -248,12 +281,12 @@ a {
     margin: 0 auto;
     max-width: var(--max-width);
 }
-.page_section__zQZ2o{
+/* .section{
    position: relative;
     margin: 0 auto;
     max-width: 968px;
 
-}
+} */
 
 .page_aa__kZTL0{
   background: #fff;
