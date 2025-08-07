@@ -45,7 +45,7 @@ const item = {
     initial="hidden"
     animate="show"
     >
-    {[1,2,3,4].map((_, index) => (
+    {[1,2,3,4,5].map((_, index) => (
       <motion.li className={Styles.list} key={index} custom={index} variants={item} />
     ))}
     

@@ -9,20 +9,11 @@
 .page_logo__ikIZE.page_react__XX8tP:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
 .page_modalopen__OCdix {
   overflow-y: hidden;
 }
-.page_star__Q1gRa{
-  width: 2000px;
-  height: 100vh;
-  background: red;
-  position: absolute;
-  .page_star1__zvKdc{
-    position: absolute;
-    top:200px;
-    left: -50px;
-  }
-}
+
 
 @keyframes page_logo-spin__lp7l5 {
   from {

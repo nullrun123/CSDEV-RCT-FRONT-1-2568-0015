@@ -1,11 +1,11 @@
 /*!*************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/loading.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************/
-.loading_column__9tUWo{
+.loading_column__9tUWo {
   position: absolute;
   right: 0;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   bottom: 0;
   z-index: 1000;
   pointer-events: none;
@@ -14,15 +14,34 @@
   width: 100%;
   height: 100vh;
 }
-.loading_list__42l7a{
+
+.loading_list__42l7a {
   display: flex;
   background: green;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-width: 100%;
+  width: 100%;
   height: 100%;
+
 }
+
+.loading_list__42l7a:nth-child(1) {
+  background: #CE9336;
+}
+.loading_list__42l7a:nth-child(2) {
+  background: #E1A444;
+}
+.loading_list__42l7a:nth-child(3) {
+  background: #F2AF45;
+}
+.loading_list__42l7a:nth-child(4) {
+  background: #FFBC50;
+}
+.loading_list__42l7a:nth-child(5) {
+  background: #FFC364;
+}
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Geist","arguments":[{"variable":"--font-geist-sans","subsets":["latin"]}],"variableName":"geistSans"} ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -247,20 +266,11 @@ a {
 .page_logo__ikIZE.page_react__XX8tP:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
 .page_modalopen__OCdix {
   overflow-y: hidden;
 }
-.page_star__Q1gRa{
-  width: 2000px;
-  height: 100vh;
-  background: red;
-  position: absolute;
-  .page_star1__zvKdc{
-    position: absolute;
-    top:200px;
-    left: -50px;
-  }
-}
+
 
 @keyframes page_logo-spin__lp7l5 {
   from {
