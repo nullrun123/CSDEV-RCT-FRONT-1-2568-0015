@@ -10,17 +10,29 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.page_modalopen__OCdix {
+  overflow-y: hidden;
+}
 .page_star__Q1gRa{
-  width: 2000px;
-  height: 100vh;
-  background: red;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
   .page_star1__zvKdc{
     position: absolute;
-    top:200px;
-    left: -50px;
+    top: 2em;
+    right: 7em;
+  }
+  .page_star2__dY0Iq{
+    position: absolute;
+    top: 8em;
+    left: 6em;
+    
   }
 }
+
+
 @keyframes page_logo-spin__lp7l5 {
   from {
     transform: rotate(0deg);
@@ -40,12 +52,12 @@
     margin: 0 auto;
     max-width: var(--max-width);
 }
-.page_section__zQZ2o{
+/* .section{
    position: relative;
     margin: 0 auto;
     max-width: 968px;
 
-}
+} */
 
 .page_aa__kZTL0{
   background: #fff;
@@ -60,18 +72,19 @@
 .Header_navbar__9czzY {
   display: flex;
   align-items: center;
-  padding: 0px 20px;
+  padding: 5px 20px;
 }
 
 .Header_logo__V0SFW {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
   gap: 8px;
-}
+  align-items: center;
+ }
 
 .Header_logoimg__RmXfX {
   width: 25px;
-  height: 40px;
+  height: 30px;
 }
 
 @media (max-width: 600px) {
@@ -121,21 +134,20 @@
   
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 1rem;
     padding: 1rem;
+    min-height: 100vh;
 }
 .MyBlogs_li__PnQPK{
   transform: scale(0.95);
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: #fff;
-  list-style-type: none;
   display: flex;
   flex-direction: row;
   border-radius: 20px;
   font-size: 20px;
   overflow: hidden;
-
 }
 /* .imageBlog{
   width: 45rem;
@@ -144,21 +156,19 @@
   width: 300px;
   height: 100%;
   object-fit: cover;
-  background-repeat: repeat;
 }
 .MyBlogs_detailtext__zsYBd{
   color: black;
   text-align: left;
-
-  padding:1.5rem 2rem;
+  padding:0.5rem 2rem;
   max-width: 100%;
   h2{
-    font-size: clamp(1.125rem, 0.939rem + 0.3876vw, 1.375rem);
+    font-size: clamp(1rem, 0.3333rem + 1.3889vw, 1.375rem);
   }
 }
 .MyBlogs_detail__Kuau_{
-    font-size: 18px;
-    margin: 20px 0;
+    font-size: 15px;
+    margin: 10px 0;
     margin-bottom:30px;
 }
 
@@ -167,13 +177,17 @@
     text-align: center;
     border-radius: 30px;
     font-weight: bold;
-    padding: 15px 40px;
+    padding: 13px 35px;
     cursor: pointer;
 }
+.MyBlogs_btnread__Y52je:hover{
+    color: white;
+}
+
 .MyBlogs_Blogs__bi2Je{
   font-size: 38px;
 
-  margin-bottom: 0.1em;
+  margin-bottom: 0.2em;
   color: #9C55FF;
 }
 
@@ -270,7 +284,8 @@ font-weight: 600;
     background: #fff;
     color:black;
     border-radius: 20px;
-    width: 750px;
+    width: 100%;
+    max-width: 780px;
     position: relative;
     overflow: hidden;
 }

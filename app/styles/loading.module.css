@@ -1,0 +1,40 @@
+.column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  background: green;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.list:nth-child(1) {
+  background: #CE9336;
+}
+.list:nth-child(2) {
+  background: #E1A444;
+}
+.list:nth-child(3) {
+  background: #F2AF45;
+}
+.list:nth-child(4) {
+  background: #FFBC50;
+}
+.list:nth-child(5) {
+  background: #FFC364;
+}

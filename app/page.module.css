@@ -7,17 +7,29 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.modalopen {
+  overflow-y: hidden;
+}
 .star{
-  width: 2000px;
-  height: 100vh;
-  background: red;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
   .star1{
     position: absolute;
-    top:200px;
-    left: -50px;
+    top: 2em;
+    right: 7em;
+  }
+  .star2{
+    position: absolute;
+    top: 8em;
+    left: 6em;
+    
   }
 }
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,12 +49,12 @@
     margin: 0 auto;
     max-width: var(--max-width);
 }
-.section{
+/* .section{
    position: relative;
     margin: 0 auto;
     max-width: 968px;
 
-}
+} */
 
 .aa{
   background: #fff;

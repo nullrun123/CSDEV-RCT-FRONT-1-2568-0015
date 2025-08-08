@@ -4,7 +4,7 @@ import pine from '@/public/pineapple_full.svg';
 const footerPage = () => {
   return (
 
-    <footer className={style.container}>
+    <footer className={`section ${style.container}`}>
         <div className={style.pineapple}>
             <Image className={style.imgPine} src={pine} alt='Pineapple'/>
             <p>Pineapple</p>

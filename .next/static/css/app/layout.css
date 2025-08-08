@@ -1,3 +1,47 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/styles/loading.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.loading_column__9tUWo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100vh;
+}
+
+.loading_list__42l7a {
+  display: flex;
+  background: green;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.loading_list__42l7a:nth-child(1) {
+  background: #CE9336;
+}
+.loading_list__42l7a:nth-child(2) {
+  background: #E1A444;
+}
+.loading_list__42l7a:nth-child(3) {
+  background: #F2AF45;
+}
+.loading_list__42l7a:nth-child(4) {
+  background: #FFBC50;
+}
+.loading_list__42l7a:nth-child(5) {
+  background: #FFC364;
+}
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Geist","arguments":[{"variable":"--font-geist-sans","subsets":["latin"]}],"variableName":"geistSans"} ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -152,6 +196,11 @@ a {
         letter-spacing: 1.5px;
     }
 }
+.footer_section__TuGVS{
+   position: relative;
+    margin: 0 auto;
+    max-width: 968px;
+}
 .footer_copyright__heWM4{
     font-weight: bold;
     font-size: 12px;
@@ -176,18 +225,19 @@ a {
 .Header_navbar__9czzY {
   display: flex;
   align-items: center;
-  padding: 0px 20px;
+  padding: 5px 20px;
 }
 
 .Header_logo__V0SFW {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
   gap: 8px;
-}
+  align-items: center;
+ }
 
 .Header_logoimg__RmXfX {
   width: 25px;
-  height: 40px;
+  height: 30px;
 }
 
 @media (max-width: 600px) {
@@ -217,17 +267,29 @@ a {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.page_modalopen__OCdix {
+  overflow-y: hidden;
+}
 .page_star__Q1gRa{
-  width: 2000px;
-  height: 100vh;
-  background: red;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
   .page_star1__zvKdc{
     position: absolute;
-    top:200px;
-    left: -50px;
+    top: 2em;
+    right: 7em;
+  }
+  .page_star2__dY0Iq{
+    position: absolute;
+    top: 8em;
+    left: 6em;
+    
   }
 }
+
+
 @keyframes page_logo-spin__lp7l5 {
   from {
     transform: rotate(0deg);
@@ -247,12 +309,12 @@ a {
     margin: 0 auto;
     max-width: var(--max-width);
 }
-.page_section__zQZ2o{
+/* .section{
    position: relative;
     margin: 0 auto;
     max-width: 968px;
 
-}
+} */
 
 .page_aa__kZTL0{
   background: #fff;
