@@ -23,7 +23,7 @@ const Home = () => {
     setTimeout(() => {
       document.documentElement.classList.remove(Styles.modalopen);
       
-    }, 3000);
+    }, 2000);
 
     async function getData() {
 
