@@ -28,6 +28,7 @@ const Home = () => {
     async function getData() {
 
       try {
+        
         const res = await fetch('./api');
         const data = await res.json();
         setData1(data);

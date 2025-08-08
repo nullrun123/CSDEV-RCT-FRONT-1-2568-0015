@@ -9,34 +9,20 @@ const container = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: {
-      
-      delayChildren:1,
-      staggerChildren: 0.5,
-    }
   }
 }
 const item = {
   hidden: { opacity: 1, y: 0 },
   show: (index) => ({
     opacity: 0,
-    y: -1000,
+    y: -2000,
     transition: {
-      delay: 1 + index *0.4,
+      // delay แต่ล่ะ item 
+      delay: 1 + index * 0.2,
       duration: 1,
     },
   }),
 };
- useEffect(() => {
-  const myStyle = document.querySelector('.column');
-   if (myStyle) {
-    setTimeout(() => {
-      myStyle.style.zIndex = "-1";
-    }, 1000);
-  } else {
-    console.warn("Element with class .column not found");
-  }
-  }, []);
 
   return (
     <>

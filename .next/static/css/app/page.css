@@ -13,6 +13,24 @@
 .page_modalopen__OCdix {
   overflow-y: hidden;
 }
+.page_star__Q1gRa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  .page_star1__zvKdc{
+    position: absolute;
+    top: 2em;
+    right: 7em;
+  }
+  .page_star2__dY0Iq{
+    position: absolute;
+    top: 8em;
+    left: 6em;
+    
+  }
+}
 
 
 @keyframes page_logo-spin__lp7l5 {

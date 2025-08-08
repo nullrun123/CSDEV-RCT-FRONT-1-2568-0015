@@ -10,6 +10,24 @@
 .modalopen {
   overflow-y: hidden;
 }
+.star{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  .star1{
+    position: absolute;
+    top: 2em;
+    right: 7em;
+  }
+  .star2{
+    position: absolute;
+    top: 8em;
+    left: 6em;
+    
+  }
+}
 
 
 @keyframes logo-spin {
