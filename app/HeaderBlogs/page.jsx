@@ -4,8 +4,10 @@ import pine from "@/public/pineapple.svg";
 import Image from "next/image";
 import MyBlogs from "../MyBlogs/page";
 import Styles from '@/app/styles/HeaderBlog.module.css';
+import { useRouter } from 'next/navigation'
 export default function HeaderBlog(props) {
   const {data1,setData1,setSelectedItem} = props;
+  const router = useRouter()
   return (
     <>
     {/* ${Styles.section} */}
@@ -21,7 +23,7 @@ export default function HeaderBlog(props) {
           </div>
           <div className={Styles.btnimg}>
             <div className={Styles.btnbox}>
-              <button className={Styles.btnjoin}>Join the Mailing List</button>
+              <button className={Styles.btnjoin} onClick={()=> router.push('/eie')}>Join the Mailing List</button>
             </div>
             <Image src={pine} alt="pinee" />
           </div>

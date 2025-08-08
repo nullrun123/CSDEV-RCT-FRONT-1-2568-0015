@@ -23,7 +23,7 @@ const Home = () => {
     setTimeout(() => {
       document.documentElement.classList.remove(Styles.modalopen);
       
-    }, 4000);
+    }, 3000);
 
     async function getData() {
 
@@ -38,9 +38,9 @@ const Home = () => {
 
     }
     getData();
+
   }, []);
 
-  console.log(data1);
 
 
   return (

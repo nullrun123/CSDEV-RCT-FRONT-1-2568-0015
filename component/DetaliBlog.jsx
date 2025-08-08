@@ -10,7 +10,7 @@ const date = d.toUTCString();
 console.log(date);
 export default function DetailBlog(props) {
   const { selectedItem, item } = props;
-  const { IsopenBlog, setIsOpenBlog ,isModalOpen ,setIsModalOpen } = useContext(contextPop);
+  const {setIsOpenBlog } = useContext(contextPop);
   const date = new Date(item.date);
   const options = { day: "numeric",month: "long", year: "numeric" };
   const datenew = date.toLocaleDateString("en-US",options);
