@@ -5,13 +5,13 @@ import { useContext } from "react";
 import { contextPop } from "@/app/page";
 import Head from "next/head";
 import { myFont } from "@/app/fonts/Myfonts";
+import '../app/globals.css'; 
 export default function Blogs(props) {
   const { item ,setSelectedItem} = props;
   const {IsopenBlog,setIsOpenBlog} = useContext(contextPop);
   return (
 
     <li key={item.id} className={styles.li}>
-     
       <div className={styles.imageBlog}>
       <Image className={styles.blogimg} src={item.thumbnail} width={100} height={100} alt={item.title}/>
       </div>
