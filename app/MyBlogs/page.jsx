@@ -1,5 +1,6 @@
-
-import { useContext, useState } from "react";
+'use client';
+import { useState } from "react";
+import React from "react";
 import Styles from  '@/app/styles/MyBlogs.module.css';
 import Blogs from "@/component/Blogs";
 
@@ -14,7 +15,7 @@ export default function MyBlogs(props) {
       </div>
       
       <ul className={Styles.myul}>
-        {show && Array.isArray(data1.data) && data1.data.map((item,index)=>(
+        {show && Array.isArray(data1?.data) && data1?.data?.map((item,index)=>(
           <Blogs key={item.id} item={item} title={item.title} thumbnail={item.thumbnail} setSelectedItem={setSelectedItem}/>
                 
             ))}

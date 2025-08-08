@@ -4,11 +4,6 @@ const url = 'https://recruit.cskmitl.com/blog/list';
 export const GET = async()=>{
   await new Promise ((resolve) => {setInterval(resolve,500)});
   const res = await fetch(url);
-  if (!res.ok) {
-  const text = await res.text(); // อ่านข้อความแบบ plain ไว้ debug
-  throw new Error(`Fetch failed: ${res.status} ${res.statusText}\n${text}`);
-}
-
   const data = await res.json();
  return Response.json(data);
 }
