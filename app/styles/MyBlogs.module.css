@@ -86,7 +86,9 @@
   color: #9C55FF;
 }
 
-
+.pineiei{
+    height: 100vh;
+  }
 @media (max-width: 768px) {
 
    .detailtext  h2 , .li {
