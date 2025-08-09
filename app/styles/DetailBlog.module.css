@@ -4,8 +4,9 @@
     left:50%;
     transform: translate(-50%,-50%) ;
     background: #fff;
-    padding: 20px;
+    padding: 40px;
     z-index: 1000;
+    width:  950px;
     border-radius: 10px;
 }
 .Overlay{
@@ -42,7 +43,7 @@
 .titlemodal{
      margin-bottom: 10px;
      width: 100%;
-     max-width: 600px
+     max-width: 600px;
 }
 .datetitle{
     color:gray;
@@ -50,27 +51,36 @@
 .categorybox{
     margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
 }
 .category{
     margin-right: 12px;
-    padding: 5px 10px;
+    padding: 8px 12px;
     border-radius: 7px;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     background: #fff;
+    
+    
 }
 .description{
     border-top: 1px solid rgb(228, 228, 228);
-    padding:20px 0px;
-    margin-top: 20px;
+    padding:10px 0px;
+    margin-top: 1em;
+    line-height: 1.5;
+    width: 100%;
+    font-size: 20px;
 }
 
 
-.thumbnail{
-    position: absolute;
-    top:50px;
-    right:120px;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+@media (max-width:868px) {
 
+
+    .detailmodal{
+        width: 100%;
+        padding: 10px;
+    }
+    .Modal{
+        width: 100%;
+        padding: 20px;
+    }
 }
