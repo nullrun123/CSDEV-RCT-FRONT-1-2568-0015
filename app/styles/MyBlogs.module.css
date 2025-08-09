@@ -133,6 +133,11 @@
     padding: 10px 20px;
     margin-top: 20px;
   }
+  .pineiei{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 300px) {
